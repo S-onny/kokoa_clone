@@ -1,0 +1,33 @@
+#login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 5vw;
+}
+
+#login-form input {
+    border: none;
+    font-size: 19px;
+    padding: 15px 0;
+    margin-bottom: 15px;
+}
+
+#login-form input:not([type="submit"]) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#login-form input::placeholder {
+    font-size: 19px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.3)
+}
+
+#login-form input[type="submit"] {
+    font-size: 15px;
+}
+
+#login-form a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    color: inherit;
+}
