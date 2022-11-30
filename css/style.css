@@ -3,6 +3,7 @@
 /* Components */
 @import "./status-bar.css";
 @import "./nav-bar.css";
+@import "./screen-header.css";
 
 /* Screen */
 @import "./welcome-header.css";
