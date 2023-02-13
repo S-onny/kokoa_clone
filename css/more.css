@@ -9,7 +9,7 @@
 
 .more-suggestions {
     margin-top: 50px;
-    border-top: 25px;
+    border-top: 1px solid #D6D6D6;
     padding-top: 40px;
 }
 
@@ -23,10 +23,23 @@
 
 .more-suggestions__icon {
     margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-more-suggestions__icon-image {
+.more-suggestions__icon-image {
     width: 60px;
     height: 60px;
-    background-color: ;
+    background-color: #F2DC00;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.more-suggestions__icon-image i {
+    font-size: 32px;
+    color: white;
 }
